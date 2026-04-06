@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1><strong>Dados Pessoais:</strong></h1>
+        <form method="post">
+            <label for="Nome">Insira o seu nome completo:</label>
+            <input type="text" name="Nome" size="20">
+            <br>
+            <label for="CPF">Insira o seu CPF:</label>
+            <input type="text" name="CPF" size="20">
+            <br>
+            <label for="Data">Insira a sua data de nascimento:</label>
+            <input type="date" name="Data" size="20">
+            <br>
+            <label for="endereco">Digite o seu endereço completo:</label>
+            <input type="text" name="endereco">
+            <br>
+            <label>Curso desejado:</label>
+            <select name="curso">
+                <option>Informática</option>
+                <option>Administração</option>
+                <option>Agropecuária</option>
+                <option>Edificações</option>
+            </select>
+            <br>
+            <label>Turno:</label>
+            <br>
+            <input type="radio" name="turno"> Manhã<br>
+            <input type="radio" name="turno"> Tarde<br>
+            <input type="radio" name="turno"> Noite<br>
+            
+            <label>Possui experiência?</label><br>
+            <input type="radio" name="experiencia"> Sim<br>
+            <input type="radio" name="experiencia"> Não<br>
+
+            <label>Áreas de interesse:</label><br>
+            <input type="checkbox"> Programação<br>
+            <input type="checkbox"> Redes<br>
+            <input type="checkbox"> Design<br>
+
+            <label>Documento:</label>
+            <input type="file"><br>
+
+            <label>Observações:</label><br>
+            <textarea></textarea><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </header>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Olá! Preencha o formulário e retornaremos o mais breve possível.</p>
+    <form method="post">
+
+        <label>Nome completo:</label><br>
+        <input type="text" name="nome"><br><br>
+
+        <label>CPF:</label><br>
+        <input type="text" name="cpf"><br><br>
+
+        <label>E-mail:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Telefone:</label><br>
+        <input type="tel" name="telefone"><br><br>
+
+        <label>Assunto:</label><br>
+        <select name="assunto">
+            <option>Selecione um assunto</option>
+            <option>Dúvida</option>
+            <option>Reclamação</option>
+            <option>Sugestão</option>
+        </select><br><br>
+
+        <label>Anexo:</label><br>
+        <input type="file" name="arquivo"><br><br>
+
+        <label>Mensagem:</label><br>
+        <textarea name="mensagem"></textarea><br><br>
+
+        <label>
+        <input type="checkbox" name="privacidade"> Aceito a Política de Privacidade
+        </label><br><br>
+
+        <input type="submit" value="Enviar">
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <form method="post">
+            <label>Insira seu nome  completo:</label>
+            <input type="text" name="nome">
+            <br>
+            <label>Insira o seu E-mail:</label>
+            <input type="email" name="email">
+            <br>
+            <label>Insira o seu número de telefone:</label>
+            <input type="tel" name="telefone">
+            <br>
+            <label>Selecione o tipo de atendimento:</label>
+            <select name="tipo">
+                <option>Dúvida</option>
+                <option>Reclamação</option>
+                <option>Sugestão</option>
+            </select>
+            <br>
+            <label>Prioridade:</label><br>
+            <input type="radio" name="prioridade"> Baixa
+            <br>
+            <input type="radio" name="prioridade"> Média
+            <br>
+            <input type="radio" name="prioridade"> Alta
+            <br>
+            <label>Descrição detalhada:</label>
+            <br>
+            <textarea name="descricao"></textarea>
+            <br>
+            <label>Anexo:</label>
+            <input type="file" name="arquivo">
+            <br>
+            <label>
+            <input type="checkbox" name="autorizacao"> Autorizar contato
+            </label>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </header>
+</body>
+</html>
+
